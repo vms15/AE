@@ -1,0 +1,252 @@
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    background: #d3d6db;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center
+}
+
+.header,
+.strong {
+    font-weight: 700
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center
+}
+
+.header__icon {
+    position: absolute;
+    top: 5px;
+    right: 10px
+}
+
+.step--end {
+    line-height: 26px;
+    text-align: start
+}
+
+.step__loader {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.step__text {
+    max-width: 200px;
+    margin: 0 auto
+}
+
+.step__date {
+    margin-bottom: 10px;
+    color: #9c9c9c;
+    font-size: 10px
+}
+
+.step__title {
+    font-size: 13px
+}
+
+.step__title--bold {
+    color: #3c5a96;
+    font-weight: 700
+}
+
+.step__subtitle {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 400
+}
+
+.step__bar {
+    padding: 5px 0 10px;
+    background-color: #232f3e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px
+}
+
+.step__prize {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 20px
+}
+
+.step__prize-image {
+    width: 100px;
+    margin-right: 10px;
+    text-align: center
+}
+
+.step__prize-image-image {
+    width: 100%
+}
+
+.step__prize-details .new-prize {
+    color: green
+}
+
+.step__button {
+    display: block;
+    width: 180px;
+    height: 27px;
+    margin-top: 4px;
+    border: 1px solid #314179;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #637aad), to(#5972a7));
+    background: -webkit-linear-gradient(top, #637aad 5%, #5972a7);
+    background: -moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
+    background: linear-gradient(180deg, #637aad 5%, #5972a7);
+    background-color: #637aad;
+    box-shadow: inset 0 1px 0 0 #7a8eb9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none
+}
+
+.card {
+    margin: 6px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #fff
+}
+
+.card--centered {
+    text-align: center
+}
+
+.card__paragraph {
+    margin: 0
+}
+
+.prize-wheel {
+    margin: 20px auto 30px
+}
+
+.prize-wheel__wheel {
+    width: 100%
+}
+
+.prize-wheel__prize {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 20%;
+    -webkit-transform: translate(-50%) rotate(180deg);
+    -moz-transform: translate(-50%) rotate(180deg);
+    -ms-transform: translate(-50%) rotate(180deg);
+    -o-transform: translate(-50%) rotate(180deg);
+    transform: translate(-50%) rotate(180deg)
+}
+
+.comments {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: start
+}
+
+.comments__likes {
+    margin-bottom: 10px
+}
+
+.comments__link {
+    color: #3c5a96;
+    cursor: pointer
+}
+
+.comments__link:hover {
+    text-decoration: underline
+}
+
+.comments__more {
+    padding: 10px 0
+}
+
+.comments__form {
+    text-align: center
+}
+
+.comments__form-input {
+    width: 90%
+}
+
+.modal {
+    font-size: 16px
+}
+
+.modal__image {
+    width: 100px
+}
+
+.modal__title {
+    margin-bottom: 0;
+    padding: 13px 16px;
+    color: rgba(0, 0, 0, .65);
+    font-size: 27px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: none
+}
+
+.modal__button {
+    margin: 0;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7cd1f9;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+.modal__button:hover {
+    background-color: #78cbf2
+}
+
+[v-cloak] {
+    display: none !important
+}
